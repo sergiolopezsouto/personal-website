@@ -6,7 +6,7 @@ import avatar from "./assets/avatar_high.jpg";
 export const avatarSrc = avatar.src;
 
 // Title
-export const title = "Hi, I'm Sergio";
+export const title = "Hi, I'm Bobo";
 
 // Subtitle
 export const showSubtitle = true;
