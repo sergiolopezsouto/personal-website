@@ -9,7 +9,7 @@ export const DATA = {
   description: "Software Engineer.",
 
   about:
-    "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam turpis luctus, semper habitasse tristique venenatis elementum lectus mi tempor magnis. Aliquam vitae suscipit etiam porttitor elementum nibh praesent commodo lacus dictumst feugiat, massa proin conubia litora suspendisse iaculis at eget duis. Eleifend laoreet eget convallis sodales etiam ac non accumsan hac sociis pretium hendrerit lectus, id nisl lobortis ante neque facilisis vel egestas arcu est enim velit.",
+    "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam turpis luctus, semper habitasse tristique venenatis elementum lectus mi tempor magnis. Aliquam vitae suscipit etiam porttitor elementum nibh praesent commodo lacus dictumst feugiat, massa proin conubia litora suspendisse iaculis at eget duis.",
 
   navbar: [{ href: "/", icon: Icons.home, label: "Home" }],
 
