@@ -37,7 +37,7 @@ export default function Navbar() {
           </DockIcon>
         ))}
 
-        <Separator orientation="vertical" className="h-full" />
+        <Separator orientation="vertical" className="h-full py-2" />
 
         {Object.entries(DATA.contact)
           .filter(([_, contact]) => contact.navbar)
@@ -47,6 +47,8 @@ export default function Navbar() {
                 <TooltipTrigger asChild>
                   <Link
                     href={contact.url}
+                    rel="noopener noreferrer"
+                    target="_blank"
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "icon" }),
                       "size-12"
