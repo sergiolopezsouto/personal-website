@@ -61,7 +61,8 @@ export const DATA = {
       title: "Software Engineer",
       start: "",
       end: "",
-      description: "",
+      description:
+        "Software development in satellite communication projects, using a JavaScript environment with Node.js and Express.js oriented to microservices with Docker and Kubernetes.",
     },
     {
       company: "Denodo",
@@ -71,7 +72,8 @@ export const DATA = {
       title: "Software Engineer",
       start: "",
       end: "",
-      description: "",
+      description:
+        "Developed UI components for the company's support website to improve the user experience using React and CSS, connecting these elements to the company's Java and Spring-powered backend.",
     },
     {
       company: "Ernst & Young",
@@ -81,7 +83,8 @@ export const DATA = {
       title: "IT Business Consultant",
       start: "",
       end: "",
-      description: "",
+      description:
+        "Provided consulting services to the public sector, assisting in decision-making and project presentations by creating and analyzing comprehensive reports, using tools and technologies such as Python, SQL, Excel and Power BI to streamline data processing and visualize insights, enhancing the effectiveness of strategic planning and decision-making.",
     },
   ],
 
