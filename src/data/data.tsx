@@ -31,6 +31,24 @@ export const DATA = {
     },
   },
 
+  skills: [
+    "Python",
+    "Javascript",
+    "Typescript",
+    "React",
+    "React Native",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "Java",
+    "Spring Framework",
+    "Linux",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Salesforce",
+  ],
+
   about:
     "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam turpis luctus, semper habitasse tristique venenatis elementum lectus mi tempor magnis. Aliquam vitae suscipit etiam porttitor elementum nibh praesent commodo lacus dictumst feugiat, massa proin conubia litora suspendisse iaculis at eget duis.",
 
@@ -84,24 +102,6 @@ export const DATA = {
       start: "2019",
       end: "2020",
     },
-  ],
-
-  skills: [
-    "Python",
-    "Javascript",
-    "Typescript",
-    "React",
-    "React Native",
-    "Next.js",
-    "Node.js",
-    "Express.js",
-    "Java",
-    "Spring Framework",
-    "Linux",
-    "Docker",
-    "Kubernetes",
-    "AWS",
-    "Salesforce",
   ],
 
   projects: [
