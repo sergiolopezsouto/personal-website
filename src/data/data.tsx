@@ -4,7 +4,7 @@ export const DATA = {
   name: "Sergio López",
   initials: "SL",
   location: "Madrid, Spain",
-  url: "https://www.sergio.lopez.souto.com",
+  url: "https://www.sergiolopezsouto.com",
   avatarUrl: "/personal/me.jpg",
   description: "Software Engineer.",
 
