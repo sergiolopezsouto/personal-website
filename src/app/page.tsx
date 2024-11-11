@@ -2,6 +2,7 @@ import { DATA } from "@/data/data";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { InstitutionCard } from "@/components/institution-card";
 import Markdown from "react-markdown";
 
 const BLUR_FADE_DELAY = 0.04;
@@ -47,11 +48,52 @@ export default function Page() {
       </section>
 
       <section id="work">
-        <h5>WORK</h5>
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 5}>
+            <h2 className="text-xl font-bold">Work Experience</h2>
+          </BlurFade>
+          {DATA.work.map((work, id) => (
+            <BlurFade
+              key={work.company}
+              delay={BLUR_FADE_DELAY * 6 + id * 0.05}
+            >
+              <InstitutionCard
+                key={work.company}
+                altText={work.company}
+                title={work.company}
+                logoUrl={work.logoUrl}
+                url={work.url}
+                subtitle={work.title}
+                period={`${work.start} - ${work.end ?? "Present"}`}
+                description={work.description}
+              />
+            </BlurFade>
+          ))}
+        </div>
       </section>
 
       <section id="education">
-        <h5>EDUCATION </h5>
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 7}>
+            <h2 className="text-xl font-bold">Education</h2>
+          </BlurFade>
+          {DATA.education.map((education, id) => (
+            <BlurFade
+              key={education.school}
+              delay={BLUR_FADE_DELAY * 8 + id * 0.05}
+            >
+              <InstitutionCard
+                key={education.school}
+                altText={education.school}
+                title={education.school}
+                logoUrl={education.logoUrl}
+                url={education.url}
+                subtitle={education.degree}
+                period={`${education.start} - ${education.end ?? "Present"}`}
+              />
+            </BlurFade>
+          ))}
+        </div>
       </section>
 
       <section id="skills">

@@ -8,9 +8,6 @@ export const DATA = {
   avatarUrl: "/personal/me.jpg",
   description: "Software Engineer.",
 
-  about:
-    "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam turpis luctus, semper habitasse tristique venenatis elementum lectus mi tempor magnis. Aliquam vitae suscipit etiam porttitor elementum nibh praesent commodo lacus dictumst feugiat, massa proin conubia litora suspendisse iaculis at eget duis.",
-
   navbar: [{ href: "/", icon: Icons.home, label: "Home" }],
 
   contact: {
@@ -34,33 +31,36 @@ export const DATA = {
     },
   },
 
+  about:
+    "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam turpis luctus, semper habitasse tristique venenatis elementum lectus mi tempor magnis. Aliquam vitae suscipit etiam porttitor elementum nibh praesent commodo lacus dictumst feugiat, massa proin conubia litora suspendisse iaculis at eget duis.",
+
   work: [
     {
       company: "GMV",
-      href: "https://gmv.com",
+      logoUrl: "/companies/gmv.png",
+      url: "https://gmv.com",
       location: "Madrid, Spain",
       title: "Software Engineer",
-      logoUrl: "/companies/gmv.png",
       start: "",
       end: "",
       description: "",
     },
     {
       company: "Denodo",
-      href: "https://denodo.com/",
+      logoUrl: "/companies/denodo.png",
+      url: "https://denodo.com/",
       location: "A Coruna, Spain",
       title: "Software Engineer",
-      logoUrl: "/companies/denodo.png",
       start: "",
       end: "",
       description: "",
     },
     {
       company: "Ernst & Young",
-      href: "https://ey.com",
+      logoUrl: "/companies/ey.png",
+      url: "https://ey.com",
       location: "A Corunña, Spain",
       title: "IT Business Consultant",
-      logoUrl: "/companies/ey.png",
       start: "",
       end: "",
       description: "",
@@ -70,17 +70,17 @@ export const DATA = {
   education: [
     {
       school: "University of A Coruna",
-      href: "https://www.udc.es/en/",
-      degree: "BSc Software Engineering",
       logoUrl: "/education/udc.png",
+      url: "https://www.udc.es/en/",
+      degree: "BSc Software Engineering",
       start: "2016",
       end: "2021",
     },
     {
       school: "University of West Bohemia",
-      href: "https://www.zcu.cz/en/",
-      degree: "BSc Software Engineering - Exchange Program",
       logoUrl: "/education/uwb.png",
+      url: "https://www.zcu.cz/en/",
+      degree: "BSc Software Engineering - Exchange Program",
       start: "2019",
       end: "2020",
     },
