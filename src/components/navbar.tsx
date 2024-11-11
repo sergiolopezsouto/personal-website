@@ -40,7 +40,7 @@ export default function Navbar() {
         <Separator orientation="vertical" className="h-full py-2" />
 
         {Object.entries(DATA.contact)
-          .filter(([_, contact]) => contact.navbar)
+          .filter(([, contact]) => contact.navbar)
           .map(([name, contact]) => (
             <DockIcon key={name}>
               <Tooltip>
