@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   description: DATA.description,
   authors: [{ name: DATA.name }],
-  // keywords: DATA.keywords,
+  keywords: DATA.keywords,
 
   icons: {
     icon: "/favicon.ico",

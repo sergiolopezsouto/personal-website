@@ -7,6 +7,12 @@ export const DATA = {
   url: "https://www.sergiolopezsouto.com",
   avatarUrl: "/personal/me.jpg",
   description: "Software Engineer.",
+  keywords: [
+    "Software Engineer",
+    "Personal Website",
+    "Portfolio",
+    "Technology",
+  ] as string[],
 
   navbar: [{ href: "/", icon: Icons.home, label: "Home" }],
 
