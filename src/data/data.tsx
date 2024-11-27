@@ -56,6 +56,7 @@ export const DATA = {
     "Kubernetes",
     "AWS",
     "Salesforce",
+    "Veeva",
   ],
 
   about:
@@ -82,7 +83,7 @@ export const DATA = {
       start: "",
       end: "",
       description:
-        "Developed UI components for the company's support website to improve the user experience using React and CSS, connecting these elements to the company's Java and Spring-powered backend.",
+        "Developed UI components to improve the user experience using React and CSS, connecting these elements to the company's Java and Spring-powered backend.",
     },
     {
       company: "Ernst & Young",
@@ -93,7 +94,7 @@ export const DATA = {
       start: "",
       end: "",
       description:
-        "Provided consulting services to the public sector, assisting in decision-making and project presentations by creating and analyzing comprehensive reports, using tools and technologies such as Python, SQL, Excel and Power BI to streamline data processing and visualize insights, enhancing the effectiveness of strategic planning and decision-making.",
+        "Provided consulting services assisting in decision-making and project presentations by creating and analyzing comprehensive reports, using tools and technologies such as Python, SQL, Excel and Power BI to streamline data processing and visualize insights, enhancing the effectiveness of strategic planning and decision-making.",
     },
   ],
 
