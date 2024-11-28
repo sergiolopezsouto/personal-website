@@ -23,13 +23,13 @@ export default function Page() {
                 text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
               />
               <BlurFadeText
-                className="max-w-[600px] md:text-l py-4"
+                className="max-w-[600px] md:text-l py-4 text-pretty font-sans text-muted-foreground dark:prose-invert"
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="size-28 border md:size-40">
+              <Avatar className="size-36 border">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
