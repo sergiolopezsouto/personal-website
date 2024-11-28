@@ -6,7 +6,8 @@ export const DATA = {
   location: "Madrid, Spain",
   url: "https://www.sergiolopezsouto.com",
   avatarUrl: "/personal/me.jpg",
-  description: "Software Engineer.",
+  description:
+    "Software Engineer with a passion for cloud solutions and applied AI to drive innovation and scalability.",
   keywords: [
     "Software Engineer",
     "Personal Website",
