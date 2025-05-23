@@ -120,13 +120,126 @@ export const DATA = {
 
   projects: [
     {
+      title: "Apartamentos Costa",
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       image: "",
-      title: "",
-      url: "",
-      description: "",
-      technologies: [],
-      links: [],
-      active: true,
+      video: "https://cdn.llm.report/openai-demo.mp4",
+      technologies: ["Next.js", "TailwindCSS", "Aceternity UI"],
+      links: [
+        {
+          label: "Website",
+          url: "https://github.com/sergiolopezsouto",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          label: "Source",
+          url: "https://github.com/sergiolopezsouto",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      // active: true,
+    },
+
+    {
+      title: "LoFi Music",
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      image: "",
+      video: "https://cdn.magicui.design/bento-grid.mp4",
+      technologies: ["Next.js", "TailwindCSS", "Shadcn UI", "Aceternity UI"],
+      links: [
+        {
+          label: "Website",
+          url: "https://github.com/sergiolopezsouto",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          label: "Source",
+          url: "https://github.com/sergiolopezsouto",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      // active: true,
+    },
+
+    {
+      title: "AI Summarizr",
+      description:
+        "First approach playing and testing the OpenAI API with this mini SaaS.",
+      image: "/projects/summarizerAI.png",
+      video: "",
+      technologies: ["Next.js", "TailwindCSS", "OpenAI API"],
+      links: [
+        {
+          label: "Website",
+          url: "https://github.com/sergiolopezsouto",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          label: "Source",
+          url: "https://github.com/sergiolopezsouto",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      // active: true,
+    },
+
+    {
+      title: "LetsGonna",
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      image: "/projects/letsgonna.png",
+      video: "",
+      technologies: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "Google Maps API",
+        "Stripe API",
+      ],
+      links: [
+        {
+          label: "Website",
+          url: "https://github.com/sergiolopezsouto",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          label: "Backend",
+          url: "https://github.com/sergiolopezsouto",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          label: "Frontend",
+          url: "https://github.com/sergiolopezsouto",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      // active: true,
+    },
+
+    {
+      title: "Flappy Bird 2.0",
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      image: "/projects/flappybird.png",
+      video: "",
+      technologies: ["HTML", "CSS", "Javascript", "Canvas"],
+      links: [
+        {
+          label: "Website",
+          url: "https://github.com/sergiolopezsouto",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          label: "Source",
+          url: "https://github.com/sergiolopezsouto",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      // active: true,
     },
   ],
 } as const;
